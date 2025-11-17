@@ -1,0 +1,45 @@
+# Environment variables (contain secrets)
+.env
+*.env
+.env.local
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Go
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# ChromaDB vector storage (can be large)
+backend/python_service/vectorstore/data/
+backend/python_service/vectorstore/embeddings_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled binaries
+main
+server
