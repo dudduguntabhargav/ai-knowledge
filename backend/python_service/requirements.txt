@@ -9,3 +9,7 @@ faiss-cpu
 pymongo
 openai
 python-dotenv
+pypdf2
+python-docx
+unstructured
+pillow
