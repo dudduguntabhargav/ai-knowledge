@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langchain-core
+langchain-community
+langchain-openai
+chromadb
+faiss-cpu
+pymongo
+openai
+python-dotenv
+pypdf2
+python-docx
+unstructured
+pillow
